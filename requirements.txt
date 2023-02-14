@@ -1,5 +1,10 @@
 fastapi
 uvicorn
+python-multipart
 jinja2
 sqlalchemy
-pydantic 
+pydantic
+pydantic[dotenv]
+pydantic[email]
+requests
+python-jose[cryptography]

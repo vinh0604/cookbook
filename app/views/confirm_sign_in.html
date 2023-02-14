@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Login with Magic Link</title>
+  </head>
+  <body>
+    <form method="post" path="/magic_sign_in">
+      <input type="hidden" name="token" value="{{ token }}"/>
+      <input type="submit" value="Confirm"/>
+    </form>
+  </body>
+</html>
