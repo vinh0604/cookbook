@@ -11,7 +11,10 @@
 	},
 	"customizations": { 
 		"vscode": {
-			"terminal.integrated.defaultProfile.linux": "zsh"
+			"terminal.integrated.defaultProfile.linux": "zsh",
+			"extensions": [
+				"GitHub.copilot"
+			]
 		}
 	},
 	"postCreateCommand": "zsh ./.devcontainer/post-install.sh"
