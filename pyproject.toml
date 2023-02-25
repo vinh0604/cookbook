@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "cookbook"
+version = "0.1.0"
+description = ""
+authors = ["Vinh Bach <vinh@home>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+fastapi = "^0.92.0"
+uvicorn = "^0.20.0"
+python-multipart = "^0.0.5"
+Jinja2 = "^3.1.2"
+SQLAlchemy = "^2.0.4"
+pydantic = {extras = ["email"], version = "^1.10.5"}
+requests = "^2.28.2"
+python-jose = {extras = ["cryptography"], version = "^3.3.0"}
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
